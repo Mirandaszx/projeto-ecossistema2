@@ -1,12 +1,12 @@
 package principal;
 
-import Ecossistema1.vegetacao.Arvore;
-import Ecossistema1.vegetacao.Planta;
 import animals.Animal;
 import animals.Gazela;
 import animals.Leao;
 import animals.Tigre;
 import animals.Zebra;
+import vegetacao.Arvore;
+import vegetacao.Planta;
 
 
 public class App {
