@@ -1,4 +1,4 @@
-package Ecossistema1.vegetacao;
+package vegetacao;
 
 public class Planta extends Vegetacao {
     
