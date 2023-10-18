@@ -5,6 +5,7 @@ public class Tigre extends Animal {
         super("Tigre", forca, vida, carnivoro, faminto,herbivoro,Velocidade);
         
        }
+       // metodo de sobreposição 
        @Override
     public void procurarcomida() {
         System.out.println("O Tigre caça uma presa na selva.");

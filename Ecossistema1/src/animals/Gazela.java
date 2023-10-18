@@ -7,7 +7,7 @@ public class Gazela extends Animal{
     @Override
     public void procurarcomida() {
         System.out.println("A Gazela pasta na savana.");
-        // Implemente a lógica específica da gazela para procurar comida aqui
+        
     }
        
 }

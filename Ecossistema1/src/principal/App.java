@@ -1,5 +1,7 @@
 package principal;
 
+import Ecossistema1.vegetacao.Arvore;
+import Ecossistema1.vegetacao.Planta;
 import animals.Animal;
 import animals.Gazela;
 import animals.Leao;
@@ -18,7 +20,8 @@ public class App {
         Zebra zebra = new Zebra("Zebra ", 5, 80, false, false, true, 25.0);
         Tigre tigre = new Tigre("Tigre ", 9, 120, true, false, false, 18.0);
         Gazela gazela = new Gazela("Gazela ", 4, 70, false, false, true, 30.0);
-       
+        Arvore arvore = new Arvore("carvalho", 10);
+        Planta planta= new Planta("Planta", 2);
         // resolvi criar uma especie de historia utilizando o ecossistema 
         realizarAtividadesDoDia(leao, zebra, tigre, gazela);
     }
@@ -38,6 +41,7 @@ public class App {
         }
 
         //  ações específicas de cada animal
+        // a zebra aparecia duas vezes em vez do tigre aparecer ai fiz isso
         for (Animal animal : animais) {
             if (animal instanceof Zebra) {
                 ((Zebra) animal).procurarcomida();
@@ -47,6 +51,7 @@ public class App {
                 animal.procurarcomida();
             }
         }
+        
 
         encerrarDia(animais);
     }
@@ -58,8 +63,12 @@ public class App {
             animal.dormir();
         }
 
+        
+        
 }
+// não consegui usar a vegetação
 
- // não consegui criar metodos de arvores
+
+ 
 
 }
