@@ -9,10 +9,9 @@ public class Planta extends Vegetacao {
     }
         
 
-    @Override
-    public void morrer(){
-        System.out.println("a planta cresce");
+    
+   
     }
-}
+
     
 

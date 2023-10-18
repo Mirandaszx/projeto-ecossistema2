@@ -9,7 +9,7 @@ public class Vegetacao {
         this.altura = altura;
     }
 
-    public void morrer() {
+    public void crescer() {
         System.out.println(nome + " está crescendo.");
     }
 

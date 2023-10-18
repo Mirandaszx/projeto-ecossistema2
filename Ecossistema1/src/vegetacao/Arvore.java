@@ -7,9 +7,6 @@ public class Arvore  extends Vegetacao{
 
    
     
-    @Override
-    public void morrer(){
-        System.out.println("arvore cresce");
-    }
+   
     
 }
